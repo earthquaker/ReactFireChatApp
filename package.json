@@ -6,10 +6,6 @@
     "start": "node server.js",
     "lint": "eslint src"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
-  },
   "keywords": [
     "react",
     "reactjs",
@@ -23,9 +19,6 @@
   ],
   "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
-  },
   "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
     "babel-core": "^6.0.20",
@@ -40,7 +33,16 @@
     "webpack-dev-server": "^1.12.1"
   },
   "dependencies": {
+    "css-loader": "^0.23.1",
+    "firebase": "^2.3.2",
+    "lodash": "^3.10.1",
+    "material-ui": "^0.14.0",
+    "node-sass": "^3.4.2",
     "react": "^0.14.0",
-    "react-dom": "^0.14.0"
+    "react-dom": "^0.14.0",
+    "react-tap-event-plugin": "^0.2.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "trim": "0.0.1"
   }
 }
